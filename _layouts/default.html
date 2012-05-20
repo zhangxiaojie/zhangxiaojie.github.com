@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title> {% if page.title %} {{ page.title }} | {% endif %} Zhang's Blog </title>
+  <link rel="stylesheet" href="/css/styles.css" />
+  <style>a{TEXT-DECORATION:none}</style>
+</head>
+<body>
+ 
+  <div id="main">
+ 
+    <header>
+      <h1> Zhang's Blog </h1>
+    <header>
+ 
+    <nav role="navigation">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/archive/">Archive</a></li>
+      </ul>
+    </nav>
+
+    <section class="content">
+ 	 <p>
+   	 {{ content }}
+  	</p>
+    </section>
+ 
+    <footer>
+      <p>@copy;Zhang 2012  | All Rights Reserved. </p>
+    </footer>
+ 
+  </div>
+</body>
+</html>
